@@ -56,7 +56,7 @@ end
 2. 横幅广告 Banner的`hostController`属性为必填项
 3. 插屏广告的`LSAdInstlManager`对象需被其他对象强引用
 4. SDK中使用了IDFA广告标识符，如果你的应用要上传到App Store，请正确配置IDFA一栏***
-###示例代码:
+***示例代码:
 
 > 获取横幅广告
 
@@ -173,11 +173,3 @@ self.instlManager = instlManager;
  */
 @property (nonatomic, assign) LSAnimation animation;
 ```
-
-
-
-
-
-
-
-
